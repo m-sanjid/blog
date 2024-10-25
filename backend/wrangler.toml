@@ -2,10 +2,10 @@ name = "backend"
 main = "src/index.ts"
 compatibility_date = "2024-10-21"
 compatibility_flags = [ "nodejs_compat" ]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiODQwNjQzZjAtMTJjOC00ZWI0LThjMmQtYzExYzE3MGYzM2Q1IiwidGVuYW50X2lkIjoiYzI5ZmQzNTljYTYxNzYzZDE5NTVkZjhhYjNkMWNlNzVhYjg2ZjQ5YWI2ODQ3OTI0YTRmNGM3MDQzMmFhYmE3NCIsImludGVybmFsX3NlY3JldCI6ImQ5NDRlMGEzLWQ4YmItNDJkMy05MTU2LTJmYTNjYTJmNTYyOCJ9.vW2zA0b9dlKOKvmlzmqwDFRuA170C3ukpPa5HcjJSgo",
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiODQwNjQzZjAtMTJjOC00ZWI0LThjMmQtYzExYzE3MGYzM2Q1IiwidGVuYW50X2lkIjoiYzI5ZmQzNTljYTYxNzYzZDE5NTVkZjhhYjNkMWNlNzVhYjg2ZjQ5YWI2ODQ3OTI0YTRmNGM3MDQzMmFhYmE3NCIsImludGVybmFsX3NlY3JldCI6ImQ5NDRlMGEzLWQ4YmItNDJkMy05MTU2LTJmYTNjYTJmNTYyOCJ9.vW2zA0b9dlKOKvmlzmqwDFRuA170C3ukpPa5HcjJSgo"
+JWT_SECRET="jwtsecret"
 
-JWT_SECRET=jwtsecret,
-# [vars]
 # MY_VAR = "my-variable"
 
 # [[kv_namespaces]]
